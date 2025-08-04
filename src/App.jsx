@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ReactLenis } from '@studio-freight/react-lenis'; // ✅
+import { Lenis as ReactLenis } from 'lenis/react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Education from './components/Education';

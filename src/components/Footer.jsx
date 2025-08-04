@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import { motion } from 'framer-motion';
-import Particles from "react-tsparticles";
+import { Particles } from "@tsparticles/react";
 import { loadSlim } from "tsparticles-slim";
 import { Mail, Linkedin, Github, CodeSquare } from 'lucide-react';
 import { particlesOptions } from './particlesConfig'; // Assuming this config is available

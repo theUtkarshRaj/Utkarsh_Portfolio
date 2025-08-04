@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import { motion } from 'framer-motion';
-import Particles from "react-tsparticles";
+import { Particles } from "@tsparticles/react";
 import { loadSlim } from "tsparticles-slim";
 import { educationData } from './data/educationData';
 import EducationCard from "./EducationCard.jsx";

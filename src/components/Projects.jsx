@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { motion } from 'framer-motion';
-import Particles from "react-tsparticles";
+import { Particles } from "@tsparticles/react";
 import { loadSlim } from "tsparticles-slim";
 import { projects } from './data/projectData';
 import ProjectCard from './ProjectCard';

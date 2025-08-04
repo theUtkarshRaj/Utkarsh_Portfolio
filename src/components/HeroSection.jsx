@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import { ChevronDown, FileDown, Send } from 'lucide-react';
 import { motion } from 'framer-motion';
-import Particles from "react-tsparticles";
+import { Particles } from "@tsparticles/react";
 import { loadSlim } from "tsparticles-slim";
 import { heroData } from './data/heroConfig';
 import { particlesOptions } from './particlesConfig';
