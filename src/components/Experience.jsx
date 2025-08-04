@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import { motion } from 'framer-motion';
 import { Particles } from "@tsparticles/react";
 import { loadSlim } from "tsparticles-slim";
-import { experiences } from "./data/ExperienceData";
+import { experiences } from "./data/experienceData";
 import ExperienceCard from "./ExperienceCard.jsx";
 import { particlesOptions } from './particlesConfig';
 
